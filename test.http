@@ -4,3 +4,15 @@ GET  http://127.0.0.1:8080/v1/healthz
 
 ###
 GET  http://127.0.0.1:8080/v1/err
+
+###
+POST http://127.0.0.1:8080/v1/users
+
+{
+    "name": "Rob"
+}
+
+###
+GET http://127.0.0.1:8080/v1/users
+Authorization: ApiKey eaebdc22a5f4725ff6eae8e397b6d136bb10c59034bb33a3eec4e6e2b097d45f
+
