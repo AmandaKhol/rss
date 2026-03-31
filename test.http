@@ -28,3 +28,20 @@ Authorization: ApiKey eaebdc22a5f4725ff6eae8e397b6d136bb10c59034bb33a3eec4e6e2b0
     "url": "https://amandakhol.com/index2.xml",
     "name": "Lanes'blog2"
 }
+
+###
+POST http://127.0.0.1:8080/v1/feed_follows
+Authorization: ApiKey eaebdc22a5f4725ff6eae8e397b6d136bb10c59034bb33a3eec4e6e2b097d45f
+
+{
+    "feed_id": "758edeb7-4d97-47a4-84ac-fae0362b6144"
+}
+
+###
+GET http://127.0.0.1:8080/v1/feed_follows
+Authorization: ApiKey eaebdc22a5f4725ff6eae8e397b6d136bb10c59034bb33a3eec4e6e2b097d45f
+
+
+###
+DELETE http://127.0.0.1:8080/v1/feed_follows/e461c216-84bb-4017-a05e-3e058fa4cc21
+Authorization: ApiKey eaebdc22a5f4725ff6eae8e397b6d136bb10c59034bb33a3eec4e6e2b097d45f
