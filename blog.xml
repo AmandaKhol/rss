@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel>
+    <title>
+       Amanda's Blog
+    </title>
+    <item>
+    <title>First item</title>
+    <description>First description</description>
+    </item>
+    <item>
+    <title>Second item</title>
+    <description>Second description</description>
+    </item>
+</channel>
